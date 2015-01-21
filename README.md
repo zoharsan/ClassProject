@@ -1,5 +1,5 @@
 # ClassProject
-# Project submission for Coursera class Getting and Cleaning Data
+Repository for Project submission for Coursera class Getting and Cleaning Data
 
 ## Script run_analysis.R
 
