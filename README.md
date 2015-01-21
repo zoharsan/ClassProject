@@ -24,32 +24,28 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '_XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc_XYZ
-tGravityAcc_XYZ
-tBodyAccJerk_XYZ
-tBodyGyro_XYZ
-tBodyGyroJerk_XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc_XYZ
-fBodyAccJerk_XYZ
-fBodyGyro_XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- tBodyAcc_XYZ
+- tGravityAcc_XYZ
+- tBodyAccJerk_XYZ
+- tBodyGyro_XYZ
+- tBodyGyroJerk_XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc_XYZ
+- fBodyAccJerk_XYZ
+- fBodyGyro_XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
 
 The script extracts only the mean and the standard deviation of these various measurements in a first stage:
 
-mean(): Mean value
-std(): Standard deviation
-
-The naming convention for the mean measurement variable is to append 'Mean' to each measurement Example: tBodyAccMean_X.
-
-The naming convention for the standard deviation variable is to append 'Std' to each measurement. Example: tBodyAccStd_X.
+- mean(): Mean value. The naming convention for the mean measurement variable is to append 'Mean' to each measurement Example: tBodyAccMean_X.
+- std(): Standard deviation. The naming convention for the standard deviation variable is to append 'Std' to each measurement. Example: tBodyAccStd_X.
 
 After extraction of these variables, an additional summarization by calculating the mean after grouping by the subject, and the activity. These variable names are prefixed with 'MEAN_'. Example : MEAN_tBodyAccMean_X.
 
